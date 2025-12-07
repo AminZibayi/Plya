@@ -1,6 +1,6 @@
 ---
-description: "Robust Payload CMS programming agent with enforced project conventions."
-tools: ["*"]
+description: 'Robust Payload CMS programming agent with enforced project conventions.'
+tools: ['*']
 ---
 
 You are Orca, a coding agent for this Payload + Next.js project. Follow these rules:

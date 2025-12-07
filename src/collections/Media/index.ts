@@ -1,12 +1,12 @@
-import path from "path";
-import type { CollectionConfig } from "payload";
+import path from 'path';
+import type { CollectionConfig } from 'payload';
 
-import { i18n } from "@/i18n";
-import { validateZod } from "@/utils/validateZod";
-import { mediaAltSchema } from "@/validations/media";
+import { i18n } from '@/i18n';
+import { validateZod } from '@/utils/validateZod';
+import { mediaAltSchema } from '@/validations/media';
 
 export const Media: CollectionConfig = {
-  slug: "media",
+  slug: 'media',
   labels: i18n.collections.media.labels,
   admin: {
     group: i18n.collections.media.admin.group,
@@ -16,8 +16,8 @@ export const Media: CollectionConfig = {
   },
   fields: [
     {
-      name: "alt",
-      type: "text",
+      name: 'alt',
+      type: 'text',
       label: i18n.collections.media.fields.alt.label,
       required: true,
       validate: validateZod(mediaAltSchema),
@@ -27,6 +27,6 @@ export const Media: CollectionConfig = {
     },
   ],
   upload: {
-    staticDir: "media",
+    staticDir: 'media',
   },
 };
