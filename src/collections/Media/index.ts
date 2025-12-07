@@ -1,4 +1,3 @@
-import path from 'path';
 import type { CollectionConfig } from 'payload';
 
 import { i18n } from '@/i18n';

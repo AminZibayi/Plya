@@ -1,7 +1,7 @@
 import { z } from 'zod';
 import type { Validate } from 'payload';
 
-export const validateZod = (schema: z.ZodSchema<any>): Validate => {
+export const validateZod = <T>(schema: z.ZodSchema<T>): Validate => {
   return value => {
     const result = schema.safeParse(value);
 
