@@ -36,4 +36,5 @@ Thanks for helping improve this Payload starter. Follow the guidelines below to 
 - [ ] Add i18n for zod error messages.
 - [ ] Add custom logo and favicon files.
 - [ ] Update vscode folder icons for folder without icons
+- [ ] Look where metadata in layout.jsx is used and put it under config if needed
 - [ ] Document a recommended production logging/monitoring stack.

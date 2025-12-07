@@ -20,8 +20,8 @@ export default buildConfig({
       baseDir: path.resolve(dirname),
     },
     meta: {
-      title: "Amin's Starter Template",
-      titleSuffix: "Amin's Stater Template - ",
+      title: 'Plya',
+      titleSuffix: 'Plya - ',
     },
   },
   collections: [Users, Media],

@@ -1,4 +1,4 @@
-# Payload Starter Template
+# Plya
 
 Minimal Next.js + Payload CMS 3 starter wired for Postgres, Lexical editor, i18n (en/fa), and a user-friendly admin with display names surfaced in the nav.
 

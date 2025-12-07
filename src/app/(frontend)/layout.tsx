@@ -3,7 +3,7 @@ import './styles.css';
 
 export const metadata = {
   description: 'A blank starter template using Payload in a Next.js app.',
-  title: 'Payload Blank Starter Template',
+  title: 'Plya Template',
 };
 
 export default async function RootLayout(props: { children: React.ReactNode }) {
