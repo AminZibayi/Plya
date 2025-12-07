@@ -1,7 +1,7 @@
 {
-  "name": "",
-  "version": "1.0.0",
-  "description": "A blank template to get started with Payload 3.0",
+  "name": "starter-template",
+  "version": "0.1.0",
+  "description": "A blank starter template to get started with Payload 3.0",
   "license": "MIT",
   "type": "module",
   "scripts": {
