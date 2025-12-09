@@ -20,8 +20,20 @@ export default buildConfig({
       baseDir: path.resolve(dirname),
     },
     meta: {
-      title: 'Plya',
-      titleSuffix: 'Plya - ',
+      title: 'Admin',
+      titleSuffix: ' - Plya',
+      icons: [
+        {
+          rel: 'icon',
+          type: 'image/png',
+          url: '/favicon.png',
+        },
+        {
+          rel: 'apple-touch-icon',
+          type: 'image/png',
+          url: '/apple-touch-icon.png',
+        },
+      ],
     },
   },
   collections: [Users, Media],
