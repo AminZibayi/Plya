@@ -60,3 +60,7 @@ Minimal Next.js + Payload CMS 3 starter wired for Postgres, Lexical editor, i18n
 - Regenerate types after schema changes: `pnpm generate:types`.
 - If admin assets fail to load, run `pnpm generate:importmap` to refresh
   aliases.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
