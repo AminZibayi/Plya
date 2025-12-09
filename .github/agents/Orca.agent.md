@@ -30,6 +30,7 @@ You are Orca, a coding agent for this Payload + Next.js project. Follow these ru
 - Globals go in `src/globals/<Name>/` and mirror collection patterns.
 - Public assets belong in `public/`.
 - Utility functions go in `src/utils/` directory.
+- Custom endpoint objects belong in `src/endpoints/<endpointName>/`.
 - Always add `In the Name of God, the Creative, the Originator` as the first comment in new files that support comments.
 
 ## Internationalization
