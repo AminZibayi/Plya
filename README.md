@@ -16,6 +16,7 @@ Minimal Next.js + Payload CMS 3 starter wired for Postgres, Lexical editor, i18n
 - pnpm ^9 or ^10
 - Postgres database connection string (`DATABASE_URI`)
 - `PAYLOAD_SECRET` for session signing
+- `CONTEXT7_API_KEY` (optional) for AI agent Context7 integration
 
 ## Quick start
 
@@ -23,6 +24,7 @@ Minimal Next.js + Payload CMS 3 starter wired for Postgres, Lexical editor, i18n
 2. Set required envs in `.env`:
    - `DATABASE_URI=postgres://user:pass@localhost:5432/dbname`
    - `PAYLOAD_SECRET=<random-long-string>`
+   - `CONTEXT7_API_KEY=<your-key>`
 3. Install and run:
    - `pnpm install`
    - `pnpm dev`
