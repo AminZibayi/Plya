@@ -3,11 +3,11 @@ module.exports = {
   parserPreset: 'conventional-changelog-conventionalcommits',
   formatter: '@commitlint/format',
   rules: {
-    'type-case': [2, 'always', 'pascal-case'],
+    'type-case': [2, 'always', 'lower-case'],
     'type-enum': [
       2,
       'always',
-      ['Docs', 'Feat', 'Fix', 'Refactor', 'Test', 'Dev', 'Clean', 'Content'],
+      ['feat', 'fix', 'content', 'refactor', 'test', 'build', 'ci', 'docs', 'chore'],
     ],
   },
 };
