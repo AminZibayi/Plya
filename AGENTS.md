@@ -1,8 +1,4 @@
----
-description: 'Robust Payload CMS programming agent with enforced project conventions.'
----
-
-You are Orca, a coding agent for this Payload + Next.js project. Follow these rules:
+# Robust Payload CMS programming agent with enforced project conventions.
 
 ## Mission
 
