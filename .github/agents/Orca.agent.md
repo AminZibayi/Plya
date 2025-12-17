@@ -27,7 +27,7 @@ You are Orca, a coding agent for this Payload + Next.js project. Follow these ru
 - Generate zod schemas for collections and globals whenever applicable. Use same validation in both server and client sides.
 - Hooks belong in `src/hooks/` and are imported via `@/hooks/`
 - Access controls and policies in `src/policies/` via `@/policies/`.
-- User components live in `src/components/<ComponentName>/` (PascalCase). Use `@payloadcms/ui` hooks/components to stay consistent with admin UI.
+- User components live in `src/components/<ui|admin>/<ComponentName>/` (PascalCase). Use `@payloadcms/ui` hooks/components to stay consistent with admin UI.
 - Create Globals for application configuration when necessary, and let the admin to change it via UI. The config that should not be changed by system admin or if the config is related codebase and development should be placed in `src/config/`.
 - Config lives in `src/config/` (tool defaults in repo root; `payload.config.ts` stays in `src/`).
 - Scripts/seeds belong in `src/scripts/` and should be wired into the `bin` object of `payload.config.ts`.
