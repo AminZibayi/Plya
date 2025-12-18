@@ -37,4 +37,6 @@ Thanks for helping improve this Payload starter. Follow the guidelines below to 
 - [x] Add custom logo and favicon files.
 - [ ] Update vscode folder icons for folder without icons
 - [ ] Document a recommended production logging/monitoring stack.
-- [ ] Be more specific about policy implementation, e.g. write and segment policies regarding the functionality, not the collection
+- [ ] Be more specific about policy implementation, e.g. write and segment
+      policies regarding the functionality, not the collection
+- [ ] Read newly added agent documentations to native PayloadCMS template and update the project
